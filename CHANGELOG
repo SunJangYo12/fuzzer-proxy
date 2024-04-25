@@ -1,0 +1,17 @@
+1. sudah bagus tapi penulisan crash di afl dan harness js belum sinkron
+   juga jika dilihat dari syslog penulisan crash AFL terlambat satu iterasi
+   dan jika dilihat dari log harness js dan syslog output crash tidak sama
+   gak tau ini terlambat berapa iterasi.
+
+2. penambahan untuk fuzzing library android langsung dari perangkat itu sendiri
+   dikontrol dari pc dan penulisan output AFL di sdcard memungkinkan untuk melihat
+   perkembangan fuzzing tanpa perlu kontrol pc. untuk fuzzing dari pid belum ada
+   berfungsi karena masalah komunikasi semaphore.
+
+3. hapus shmat di javascript
+
+4. edit reverse shell
+
+5. add java reverse shell
+
+NOTE: belum selesai untuk fuzzing pid android

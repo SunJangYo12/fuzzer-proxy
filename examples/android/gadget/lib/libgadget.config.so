@@ -1,0 +1,9 @@
+{
+   "interaction": {
+      "type": "listen",
+      "address": "192.168.43.1",
+      "port": 27042,
+      "on_port_conflict": "fail",
+      "on_load": "resume"
+    }
+}

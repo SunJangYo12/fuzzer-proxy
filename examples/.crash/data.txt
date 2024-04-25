@@ -1,0 +1,153 @@
+
+*********** 2024-03-30 18:26:03.067125 **********
+Log: {'message': 'access violation accessing 0xdeadbeef', 'type': 'access-violation', 'address': '0x7faf393658a4', 'memory': {'operation': 'read', 'address': '0xdeadbeef'}, 'context': {'pc': '0x7faf393658a4', 'sp': '0x7faf2a7f97d8', 'rax': '0xdeadbeef', 'rcx': '0xdeadbeef', 'rdx': '0x0', 'rbx': '0x7faf2a7f9878', 'rsp': '0x7faf2a7f97d8', 'rbp': '0x7faf2a7f99ba', 'rsi': '0x7faf2a7f981a', 'rdi': '0x7faf2a7f9860', 'r8': '0x2', 'r9': '0xdeadbeef', 'r10': '0x7faf2a7f9878', 'r11': '0x0', 'r12': '0x7faf2a7f9fa8', 'r13': '0x7faf2a7f9878', 'r14': '0x7fae3b890fa0', 'r15': '0x7faf2a7f9bc0', 'rip': '0x7faf393658a4'}, 'nativeContext': '0x0', 'fileName': '/script1.js', 'lineNumber': 151}
+iteration: 1711797963062
+stage: 0
+
+
+
+                   
+*********** 2024-03-30 18:26:08.071333 **********
+Log: {'message': 'access violation accessing 0xdeadbeef', 'type': 'access-violation', 'address': '0x7faf393658a4', 'memory': {'operation': 'read', 'address': '0xdeadbeef'}, 'context': {'pc': '0x7faf393658a4', 'sp': '0x7faf2a7f97d8', 'rax': '0xdeadbeef', 'rcx': '0xdeadbeef', 'rdx': '0x0', 'rbx': '0x7faf2a7f9878', 'rsp': '0x7faf2a7f97d8', 'rbp': '0x7faf2a7f99ba', 'rsi': '0x7faf2a7f981a', 'rdi': '0x7faf2a7f9860', 'r8': '0x2', 'r9': '0xdeadbeef', 'r10': '0x7faf2a7f9878', 'r11': '0x0', 'r12': '0x7faf2a7f9fa8', 'r13': '0x7faf2a7f9878', 'r14': '0x7fae3b736f00', 'r15': '0x7faf2a7f9bc0', 'rip': '0x7faf393658a4'}, 'nativeContext': '0x0', 'fileName': '/script1.js', 'lineNumber': 151}
+iteration: 1711797968067
+stage: 1
+
+
+
+                   
+*********** 2024-03-30 18:26:20.231281 **********
+Log: {'message': 'access violation accessing 0xdeadbeef', 'type': 'access-violation', 'address': '0x7faf393658a4', 'memory': {'operation': 'read', 'address': '0xdeadbeef'}, 'context': {'pc': '0x7faf393658a4', 'sp': '0x7faf2a7f97d8', 'rax': '0xdeadbeef', 'rcx': '0xdeadbeef', 'rdx': '0x0', 'rbx': '0x7faf2a7f9878', 'rsp': '0x7faf2a7f97d8', 'rbp': '0x7faf2a7f99ba', 'rsi': '0x7faf2a7f981a', 'rdi': '0x7faf2a7f9860', 'r8': '0x2', 'r9': '0xdeadbeef', 'r10': '0x7faf2a7f9878', 'r11': '0x0', 'r12': '0x7faf2a7f9fa8', 'r13': '0x7faf2a7f9878', 'r14': '0x7fadf61b7f70', 'r15': '0x7faf2a7f9bc0', 'rip': '0x7faf393658a4'}, 'nativeContext': '0x0', 'fileName': '/script1.js', 'lineNumber': 151}
+iteration: 1711797980229
+stage: 2
+
+
+
+                   
+*********** 2024-03-30 18:26:25.250472 **********
+Log: {'message': 'access violation accessing 0xdeadbeef', 'type': 'access-violation', 'address': '0x7faf393658a4', 'memory': {'operation': 'read', 'address': '0xdeadbeef'}, 'context': {'pc': '0x7faf393658a4', 'sp': '0x7faf2a7f97d8', 'rax': '0xdeadbeef', 'rcx': '0xdeadbeef', 'rdx': '0x0', 'rbx': '0x7faf2a7f9878', 'rsp': '0x7faf2a7f97d8', 'rbp': '0x7faf2a7f99ba', 'rsi': '0x7faf2a7f981a', 'rdi': '0x7faf2a7f9860', 'r8': '0x2', 'r9': '0xdeadbeef', 'r10': '0x7faf2a7f9878', 'r11': '0x0', 'r12': '0x7faf2a7f9fa8', 'r13': '0x7faf2a7f9878', 'r14': '0x7fadf60516a0', 'r15': '0x7faf2a7f9bc0', 'rip': '0x7faf393658a4'}, 'nativeContext': '0x0', 'fileName': '/script1.js', 'lineNumber': 151}
+iteration: 1711797985245
+stage: 3
+
+
+
+                   
+*********** 2024-03-30 18:26:30.800586 **********
+Log: {'message': 'access violation accessing 0xdeadbeef', 'type': 'access-violation', 'address': '0x7faf393658a4', 'memory': {'operation': 'read', 'address': '0xdeadbeef'}, 'context': {'pc': '0x7faf393658a4', 'sp': '0x7faf2a7f97d8', 'rax': '0xdeadbeef', 'rcx': '0xdeadbeef', 'rdx': '0x0', 'rbx': '0x7faf2a7f9878', 'rsp': '0x7faf2a7f97d8', 'rbp': '0x7faf2a7f99ba', 'rsi': '0x7faf2a7f981a', 'rdi': '0x7faf2a7f9860', 'r8': '0x2', 'r9': '0xdeadbeef', 'r10': '0x7faf2a7f9878', 'r11': '0x0', 'r12': '0x7faf2a7f9fa8', 'r13': '0x7faf2a7f9878', 'r14': '0x7fadf1294f00', 'r15': '0x7faf2a7f9bc0', 'rip': '0x7faf393658a4'}, 'nativeContext': '0x0', 'fileName': '/script1.js', 'lineNumber': 151}
+iteration: 1711797990798
+stage: 4
+
+
+
+                   
+*********** 2024-03-30 18:26:36.077185 **********
+Log: {'message': 'access violation accessing 0xdeadbeef', 'type': 'access-violation', 'address': '0x7faf393658a4', 'memory': {'operation': 'read', 'address': '0xdeadbeef'}, 'context': {'pc': '0x7faf393658a4', 'sp': '0x7faf2a7f97d8', 'rax': '0xdeadbeef', 'rcx': '0xdeadbeef', 'rdx': '0x0', 'rbx': '0x7faf2a7f9878', 'rsp': '0x7faf2a7f97d8', 'rbp': '0x7faf2a7f99ba', 'rsi': '0x7faf2a7f981a', 'rdi': '0x7faf2a7f9860', 'r8': '0x2', 'r9': '0xdeadbeef', 'r10': '0x7faf2a7f9878', 'r11': '0x0', 'r12': '0x7faf2a7f9fa8', 'r13': '0x7faf2a7f9878', 'r14': '0x7fadeed12d10', 'r15': '0x7faf2a7f9bc0', 'rip': '0x7faf393658a4'}, 'nativeContext': '0x0', 'fileName': '/script1.js', 'lineNumber': 151}
+iteration: 1711797996074
+stage: 5
+
+
+
+                   
+*********** 2024-03-30 18:26:41.171925 **********
+Log: {'message': 'access violation accessing 0xdeadbeef', 'type': 'access-violation', 'address': '0x7faf393658a4', 'memory': {'operation': 'read', 'address': '0xdeadbeef'}, 'context': {'pc': '0x7faf393658a4', 'sp': '0x7faf2a7f97d8', 'rax': '0xdeadbeef', 'rcx': '0xdeadbeef', 'rdx': '0x0', 'rbx': '0x7faf2a7f9878', 'rsp': '0x7faf2a7f97d8', 'rbp': '0x7faf2a7f99ba', 'rsi': '0x7faf2a7f981a', 'rdi': '0x7faf2a7f9860', 'r8': '0x2', 'r9': '0xdeadbeef', 'r10': '0x7faf2a7f9878', 'r11': '0x0', 'r12': '0x7faf2a7f9fa8', 'r13': '0x7faf2a7f9878', 'r14': '0x7fadee2022f0', 'r15': '0x7faf2a7f9bc0', 'rip': '0x7faf393658a4'}, 'nativeContext': '0x0', 'fileName': '/script1.js', 'lineNumber': 151}
+iteration: 1711798001166
+stage: 6
+
+
+
+                   
+*********** 2024-03-30 18:26:46.199525 **********
+Log: {'message': 'access violation accessing 0xdeadbeef', 'type': 'access-violation', 'address': '0x7faf393658a4', 'memory': {'operation': 'read', 'address': '0xdeadbeef'}, 'context': {'pc': '0x7faf393658a4', 'sp': '0x7faf2a7f97d8', 'rax': '0xdeadbeef', 'rcx': '0xdeadbeef', 'rdx': '0x0', 'rbx': '0x7faf2a7f9878', 'rsp': '0x7faf2a7f97d8', 'rbp': '0x7faf2a7f99ba', 'rsi': '0x7faf2a7f981a', 'rdi': '0x7faf2a7f9860', 'r8': '0x2', 'r9': '0xdeadbeef', 'r10': '0x7faf2a7f9878', 'r11': '0x0', 'r12': '0x7faf2a7f9fa8', 'r13': '0x7faf2a7f9878', 'r14': '0x7fadeddc60e0', 'r15': '0x7faf2a7f9bc0', 'rip': '0x7faf393658a4'}, 'nativeContext': '0x0', 'fileName': '/script1.js', 'lineNumber': 151}
+iteration: 1711798006195
+stage: 7
+
+
+
+                   
+*********** 2024-03-30 18:45:56.204126 **********
+Log: {'message': 'access violation accessing 0xdeadbeef', 'type': 'access-violation', 'address': '0x7fb982a048a4', 'memory': {'operation': 'read', 'address': '0xdeadbeef'}, 'context': {'pc': '0x7fb982a048a4', 'sp': '0x7fb98174c7d8', 'rax': '0xdeadbeef', 'rcx': '0xdeadbeef', 'rdx': '0x0', 'rbx': '0x7fb98174c878', 'rsp': '0x7fb98174c7d8', 'rbp': '0x7fb98174c9ba', 'rsi': '0x7fb98174c81a', 'rdi': '0x7fb98174c860', 'r8': '0x2', 'r9': '0xdeadbeef', 'r10': '0x7fb98174c878', 'r11': '0x0', 'r12': '0x7fb98174cfa8', 'r13': '0x7fb98174c878', 'r14': '0x7fb89534df40', 'r15': '0x7fb98174cbc0', 'rip': '0x7fb982a048a4'}, 'nativeContext': '0x0', 'fileName': '/script1.js', 'lineNumber': 151}
+iteration: 1711799156199
+stage: 0
+
+
+
+                   
+*********** 2024-03-30 19:09:11.166629 **********
+Log: {'message': 'access violation accessing 0xdeadbeef', 'type': 'access-violation', 'address': '0x7fe9c93668a4', 'memory': {'operation': 'read', 'address': '0xdeadbeef'}, 'context': {'pc': '0x7fe9c93668a4', 'sp': '0x7fe9ba7f97d8', 'rax': '0xdeadbeef', 'rcx': '0xdeadbeef', 'rdx': '0x0', 'rbx': '0x7fe9ba7f9878', 'rsp': '0x7fe9ba7f97d8', 'rbp': '0x7fe9ba7f99ba', 'rsi': '0x7fe9ba7f981a', 'rdi': '0x7fe9ba7f9860', 'r8': '0x2', 'r9': '0xdeadbeef', 'r10': '0x7fe9ba7f9878', 'r11': '0x0', 'r12': '0x7fe9ba7f9fa8', 'r13': '0x7fe9ba7f9878', 'r14': '0x7fe8a5188bc0', 'r15': '0x7fe9ba7f9bc0', 'rip': '0x7fe9c93668a4'}, 'nativeContext': '0x0', 'fileName': '/script1.js', 'lineNumber': 151}
+iteration: 1711800551163
+stage: 0
+
+
+
+                   
+*********** 2024-03-30 19:09:16.176785 **********
+Log: {'message': 'access violation accessing 0xdeadbeef', 'type': 'access-violation', 'address': '0x7fe9c93668a4', 'memory': {'operation': 'read', 'address': '0xdeadbeef'}, 'context': {'pc': '0x7fe9c93668a4', 'sp': '0x7fe9ba7f97d8', 'rax': '0xdeadbeef', 'rcx': '0xdeadbeef', 'rdx': '0x0', 'rbx': '0x7fe9ba7f9878', 'rsp': '0x7fe9ba7f97d8', 'rbp': '0x7fe9ba7f99ba', 'rsi': '0x7fe9ba7f981a', 'rdi': '0x7fe9ba7f9860', 'r8': '0x2', 'r9': '0xdeadbeef', 'r10': '0x7fe9ba7f9878', 'r11': '0x0', 'r12': '0x7fe9ba7f9fa8', 'r13': '0x7fe9ba7f9878', 'r14': '0x7fe8a502c3c0', 'r15': '0x7fe9ba7f9bc0', 'rip': '0x7fe9c93668a4'}, 'nativeContext': '0x0', 'fileName': '/script1.js', 'lineNumber': 151}
+iteration: 1711800556172
+stage: 1
+
+
+
+                   
+*********** 2024-02-01 09:47:52.658993 **********
+Log: {'message': 'access violation accessing 0x0', 'type': 'access-violation', 'address': '0x7f4014093380', 'memory': {'operation': 'read', 'address': '0x0'}, 'context': {'pc': '0x7f4014093380', 'sp': '0x7f40077fc360', 'rax': '0x1', 'rcx': '0x1f1', 'rdx': '0x7f4018013fa0', 'rbx': '0x7f4018013b60', 'rsp': '0x7f40077fc360', 'rbp': '0x7f40077fc3e0', 'rsi': '0x7f4018015520', 'rdi': '0x464a1000e0ffd8ff', 'r8': '0x1', 'r9': '0x7f401d42f100', 'r10': '0x1f1', 'r11': '0x7f4018010278', 'r12': '0x0', 'r13': '0x7f40143e602a', 'r14': '0x1', 'r15': '0x7f4018010260', 'rip': '0x7f4014093380'}, 'nativeContext': '0x0', 'fileName': '/script1.js', 'lineNumber': 149}
+iteration: 1706755672643
+stage: 0
+
+
+
+                   
+*********** 2024-02-01 09:47:57.668194 **********
+Log: {'message': 'access violation accessing 0x0', 'type': 'access-violation', 'address': '0x7f40065a7498', 'memory': {'operation': 'read', 'address': '0x0'}, 'context': {'pc': '0x7f40065a7498', 'sp': '0x7f40077fc360', 'rax': '0x1', 'rcx': '0x1f1', 'rdx': '0x7f40180141a0', 'rbx': '0x7f4018013d60', 'rsp': '0x7f40077fc360', 'rbp': '0x7f40077fc3e0', 'rsi': '0x7f4018015720', 'rdi': '0x464a1000e0ffd8ff', 'r8': '0x1', 'r9': '0x7f401d42f100', 'r10': '0x1f1', 'r11': '0x7f4018010278', 'r12': '0x1', 'r13': '0x7f401423a02a', 'r14': '0x1', 'r15': '0x7f4018010260', 'rip': '0x7f40065a7498'}, 'nativeContext': '0x0', 'fileName': '/script1.js', 'lineNumber': 149}
+iteration: 1706755677660
+stage: 1
+
+
+
+                   
+*********** 2024-02-01 09:48:02.684196 **********
+Log: {'message': 'access violation accessing 0x0', 'type': 'access-violation', 'address': '0x7f40063fa380', 'memory': {'operation': 'read', 'address': '0x0'}, 'context': {'pc': '0x7f40063fa380', 'sp': '0x7f40077fc360', 'rax': '0x1', 'rcx': '0x1f1', 'rdx': '0x7f4018013fa0', 'rbx': '0x7f4018013b60', 'rsp': '0x7f40077fc360', 'rbp': '0x7f40077fc3e0', 'rsi': '0x7f4018015920', 'rdi': '0x464a1000e0ffd8ff', 'r8': '0x1', 'r9': '0x7f401d42f100', 'r10': '0x1f1', 'r11': '0x7f4018010278', 'r12': '0x0', 'r13': '0x7f401400902a', 'r14': '0x1', 'r15': '0x7f4018010260', 'rip': '0x7f40063fa380'}, 'nativeContext': '0x0', 'fileName': '/script1.js', 'lineNumber': 149}
+iteration: 1706755682680
+stage: 2
+
+
+
+                   
+*********** 2024-02-01 09:48:27.172771 **********
+Log: {'message': 'access violation accessing 0x0', 'type': 'access-violation', 'address': '0x7fc0240f2498', 'memory': {'operation': 'read', 'address': '0x0'}, 'context': {'pc': '0x7fc0240f2498', 'sp': '0x7fc024f4c360', 'rax': '0x1', 'rcx': '0x1f1', 'rdx': '0x7fc0280141a0', 'rbx': '0x7fc028013d60', 'rsp': '0x7fc024f4c360', 'rbp': '0x7fc024f4c3e0', 'rsi': '0x7fc028015720', 'rdi': '0x464a1000e0ffd8ff', 'r8': '0x1', 'r9': '0x7fc02e485100', 'r10': '0x1f1', 'r11': '0x7fc028010278', 'r12': '0x1', 'r13': '0x7fc02441802a', 'r14': '0x1', 'r15': '0x7fc028010260', 'rip': '0x7fc0240f2498'}, 'nativeContext': '0x0', 'fileName': '/script1.js', 'lineNumber': 149}
+iteration: 1706755707167
+stage: 0
+
+
+
+                   
+*********** 2024-02-01 09:48:32.198286 **********
+Log: {'message': 'access violation accessing 0x0', 'type': 'access-violation', 'address': '0x7fc00b5ba380', 'memory': {'operation': 'read', 'address': '0x0'}, 'context': {'pc': '0x7fc00b5ba380', 'sp': '0x7fc024f4c360', 'rax': '0x1', 'rcx': '0x1f1', 'rdx': '0x7fc028013fa0', 'rbx': '0x7fc028013b60', 'rsp': '0x7fc024f4c360', 'rbp': '0x7fc024f4c3e0', 'rsi': '0x7fc028015920', 'rdi': '0x464a1000e0ffd8ff', 'r8': '0x1', 'r9': '0x7fc02e485100', 'r10': '0x1f1', 'r11': '0x7fc028010278', 'r12': '0x0', 'r13': '0x7fc0242a002a', 'r14': '0x1', 'r15': '0x7fc028010260', 'rip': '0x7fc00b5ba380'}, 'nativeContext': '0x0', 'fileName': '/script1.js', 'lineNumber': 149}
+iteration: 1706755712196
+stage: 1
+
+
+
+                   
+*********** 2024-02-01 09:49:31.132258 **********
+Log: {'message': 'access violation accessing 0x0', 'type': 'access-violation', 'address': '0x7faa39cba380', 'memory': {'operation': 'read', 'address': '0x0'}, 'context': {'pc': '0x7faa39cba380', 'sp': '0x7faa3affb360', 'rax': '0x1', 'rcx': '0x1f1', 'rdx': '0x7faa44013fa0', 'rbx': '0x7faa44013b60', 'rsp': '0x7faa3affb360', 'rbp': '0x7faa3affb3e0', 'rsi': '0x7faa44014d20', 'rdi': '0x464a1000e0ffd8ff', 'r8': '0x1', 'r9': '0x7faa4c66e100', 'r10': '0x1f1', 'r11': '0x7faa44010278', 'r12': '0x0', 'r13': '0x7faa39dff02a', 'r14': '0x1', 'r15': '0x7faa44010260', 'rip': '0x7faa39cba380'}, 'nativeContext': '0x0', 'fileName': '/script1.js', 'lineNumber': 149}
+iteration: 1706755771129
+stage: 0
+
+
+
+                   
+*********** 2024-02-01 09:49:36.156322 **********
+Log: {'message': 'access violation accessing 0x0', 'type': 'access-violation', 'address': '0x7faa3994b498', 'memory': {'operation': 'read', 'address': '0x0'}, 'context': {'pc': '0x7faa3994b498', 'sp': '0x7faa3affb360', 'rax': '0x1', 'rcx': '0x1f1', 'rdx': '0x7faa440141a0', 'rbx': '0x7faa44013d60', 'rsp': '0x7faa3affb360', 'rbp': '0x7faa3affb3e0', 'rsi': '0x7faa44014f20', 'rdi': '0x464a1000e0ffd8ff', 'r8': '0x1', 'r9': '0x7faa4c66e100', 'r10': '0x1f1', 'r11': '0x7faa44010278', 'r12': '0x1', 'r13': '0x7faa39c8902a', 'r14': '0x1', 'r15': '0x7faa44010260', 'rip': '0x7faa3994b498'}, 'nativeContext': '0x0', 'fileName': '/script1.js', 'lineNumber': 149}
+iteration: 1706755776142
+stage: 1
+
+
+
+                   
+*********** 2024-02-01 09:49:41.160560 **********
+Log: {'message': 'access violation accessing 0x0', 'type': 'access-violation', 'address': '0x7faa397bd498', 'memory': {'operation': 'read', 'address': '0x0'}, 'context': {'pc': '0x7faa397bd498', 'sp': '0x7faa3affb360', 'rax': '0x1', 'rcx': '0x1f1', 'rdx': '0x7faa440141a0', 'rbx': '0x7faa44013d60', 'rsp': '0x7faa3affb360', 'rbp': '0x7faa3affb3e0', 'rsi': '0x7faa44014f20', 'rdi': '0x464a1000e0ffd8ff', 'r8': '0x1', 'r9': '0x7faa4c66e100', 'r10': '0x1f1', 'r11': '0x7faa44010278', 'r12': '0x1', 'r13': '0x7faa39c8302a', 'r14': '0x1', 'r15': '0x7faa44010260', 'rip': '0x7faa397bd498'}, 'nativeContext': '0x0', 'fileName': '/script1.js', 'lineNumber': 149}
+iteration: 1706755781155
+stage: 2
+
+
+
+                   

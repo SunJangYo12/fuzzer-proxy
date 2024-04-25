@@ -1,0 +1,2 @@
+#AFL_SKIP_CPUFREQ=1 /home/gumi/Tools/AFLplusplus-4.06c-original/afl-fuzz -i .tmp/in/ -o .tmp/out/ -t 2000+ ./afl-proxy
+AFL_SKIP_CPUFREQ=1 afl-fuzz -i .tmp/in/ -o .tmp/out/ -t 20000 ./afl_proxy/afl-proxy 23

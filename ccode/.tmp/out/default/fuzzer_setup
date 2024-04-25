@@ -1,0 +1,4 @@
+# environment variables:
+AFL_SKIP_CPUFREQ=1
+# command line:
+'afl-fuzz' '-i' '.tmp/in/' '-o' '.tmp/out/' '-t' '20000' './afl_proxy/afl-proxy' '23'
