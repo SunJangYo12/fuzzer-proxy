@@ -106,3 +106,7 @@ C code `func_ptr` in afl_proxy /module/module.c in the callfuzz function and com
 For now how to collect errors from AFL++ is not correct so I created an alternative
 code in the module that collects crash data in .crash/data.txt for javascript logs and
 program_target/crash_result raw data that is similar to a folder crash in AFL.
+
+# support
+please buy me a coffee with: <br>
+paypal: <font color='blue'>sunjangyo12@gmail.com</font>
