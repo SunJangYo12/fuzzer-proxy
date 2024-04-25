@@ -82,7 +82,6 @@ crash data for afl-fuzz .tmp/out/default/crash
 `>> import lief`<br>
 `>> xx = lief.parse("libtarget.so")`<br>
 `>> xx.add_library("libgadget.so")`<br>
-`<lief.ELF.DynamicEntryLibrary object at 0x7f0c66553c70>`<br>
 `>> xx.write("libtarget.so")`<br>
 <br><br>
 
