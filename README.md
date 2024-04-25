@@ -1,4 +1,4 @@
-#Blackbox Fuzzing
+# Blackbox Fuzzing
 Blackbox fuzzing for program or library target on x86 and arm android.
 <br><br>
 
@@ -31,7 +31,7 @@ please open it in the .release folder.
 <br>
 
 
-#USAGE:
+# USAGE:
 <b>1. first run the afl-proxy</b>
 `$ cd ccode`
 `$ bash run`
@@ -54,7 +54,7 @@ crash data for afl-fuzz .tmp/out/default/crash
 <br><br>
 
 
-#USAGE android:
+# USAGE android:
 1. patching the target lib using frida-gadget.<br>
 2. run apk.<br>
 3. find session host using `frida-ps -H 192.168.43.1`<br>
@@ -70,24 +70,24 @@ crash data for afl-fuzz .tmp/out/default/crash
 11. run "./run.py"
 <br><br>
 
-#STEP for build:
+# STEP for build:
 1. cd ccode<br>
 2. bash build.sh<br>
 3. chose target for linux or android<br>
 
 
-#STEP for patching android library:
+# STEP for patching android library:
 1. pip install lief<br>
 2. patching:
-`>>> import lief
+>>> import lief
 >>> xx = lief.parse("libtarget.so")
 >>> xx.add_library("libgadget.so")
 <lief.ELF.DynamicEntryLibrary object at 0x7f0c66553c70>
->>> xx.write("libtarget.so")`
+>>> xx.write("libtarget.so")
 <br><br>
 
 
-#NOTE:
+# NOTE:
 If the target does not have a Java API for fuzzer storage please edit the
 variable not_java di js/harness.js
 
