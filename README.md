@@ -32,17 +32,17 @@ please open it in the .release folder.
 
 
 # USAGE:
-<b>1. first run the afl-proxy</b><br>
+1. first run the afl-proxy</b><br>
 `$ cd ccode`<br>
 `$ bash run`<br>
 <br>
 
-<b>2. run the example target</b><br>
+2. run the example target</b><br>
 `$ cd examples`<br>
 `$ ./targetFuzz`<br>
 <br>
 
-<b>3. find the pid target and run fuzzer</b><br>
+3. find the pid target and run fuzzer</b><br>
 `$ ps aux | grep targetFuzz`<br>
 `$ sudo ./run.py`<br>
 <br>
