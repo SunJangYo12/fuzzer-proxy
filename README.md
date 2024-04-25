@@ -32,22 +32,22 @@ please open it in the .release folder.
 
 
 # USAGE:
-1. first run the afl-proxy</b><br>
+1. first run the afl-proxy:<br>
 `$ cd ccode`<br>
 `$ bash run`<br>
 <br>
 
-2. run the example target</b><br>
+2. run the example target:<br>
 `$ cd examples`<br>
 `$ ./targetFuzz`<br>
 <br>
 
-3. find the pid target and run fuzzer</b><br>
+3. find the pid target and run fuzzer:<br>
 `$ ps aux | grep targetFuzz`<br>
 `$ sudo ./run.py`<br>
 <br>
 
-<b>4. get result</b><br>
+4. get result<br>
 log frida javascript in examples/.crash/data.txt
 crash data for target examples/crash_result/2024-3-30-19-9-11
 crash data for afl-fuzz .tmp/out/default/crash
@@ -88,10 +88,10 @@ crash data for afl-fuzz .tmp/out/default/crash
 
 # NOTE:
 If the target does not have a Java API for fuzzer storage please edit the
-variable not_java di js/harness.js
+variable not_java in js/harness.js
 
 Reverse shell java only works with target running java, not working in binary target like
-sshd, error marked frida.core.rpcexception: error: java API not available.
+sshd, error marked `frida.core.rpcexception: error: java API not available`.
 or use libmodule.so on condition that this ary library has been loaded into the target program.
 
 Please set the variable `moduleProgram` and `targetPtr` in file
@@ -106,5 +106,5 @@ code in the module that collects crash data in .crash/data.txt for javascript lo
 program_target/crash_result raw data that is similar to a folder crash in AFL.
 
 # support
-please buy me a coffee with: <br>
-paypal: <font color='blue'>sunjangyo12@gmail.com</font>
+Please buy me a coffee with: <br>
+paypal: sunjangyo12@gmail.com
