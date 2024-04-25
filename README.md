@@ -1,8 +1,8 @@
 # Blackbox Fuzzing
 Blackbox fuzzing for program or library target on x86 and arm android.
-<br><br>
+<br>
 
-this using AFL++ for main fuzzer and frida
+This using AFL++ for main fuzzer and frida
 to attach the pid program target. this AFL++ collect the
 path coverage using frida stalker and using shared mem for
 communicate the payload and coverage from AFL++ to the program target.
@@ -18,7 +18,7 @@ which is loaded from the JS Frida harness. For versions that use NativeFunction,
 please open it in the .release folder.
 <br>
 
-<b>afl result</b>
+<b>AFL result</b>
 ![](examples/img/afl-fuzz-crash.png)
 <br>
 
@@ -32,22 +32,22 @@ please open it in the .release folder.
 
 
 # USAGE:
-<b>1. first run the afl-proxy</b>
-`$ cd ccode`
-`$ bash run`
+<b>1. first run the afl-proxy</b><br>
+`$ cd ccode`<br>
+`$ bash run`<br>
 <br>
 
-<b>2. run the example target</b>
-`$ cd examples`
-`$ ./targetFuzz`
+<b>2. run the example target</b><br>
+`$ cd examples`<br>
+`$ ./targetFuzz`<br>
 <br>
 
-<b>3. find the pid target and run fuzzer</b>
-`$ ps aux | grep targetFuzz`
-`$ sudo ./run.py`
+<b>3. find the pid target and run fuzzer</b><br>
+`$ ps aux | grep targetFuzz`<br>
+`$ sudo ./run.py`<br>
 <br>
 
-<b>4. get result</b>
+<b>4. get result</b><br>
 log frida javascript in examples/.crash/data.txt
 crash data for target examples/crash_result/2024-3-30-19-9-11
 crash data for afl-fuzz .tmp/out/default/crash
@@ -57,7 +57,7 @@ crash data for afl-fuzz .tmp/out/default/crash
 # USAGE android:
 1. patching the target lib using frida-gadget.<br>
 2. run apk.<br>
-3. find session host using `frida-ps -H 192.168.43.1`<br>
+3. find session host using <br>`$ frida-ps -H 192.168.43.1`<br>
 4. execute ccode/build.sh > cac, upload ccode/android_copy to android sdcard (if you don't have permission
    you can copy to /sdcard/android/data/com.<package>).<br>
 5. if you need to fuzz library fuzzing, chose lib target for example lib to `examples/android/libandroid/lib/`
@@ -65,25 +65,26 @@ crash data for afl-fuzz .tmp/out/default/crash
 6. copy all library and fuzzer `./run.py > cf(copy_fuzzer) > input path`<br>
 7. execute `./run.py > continue > select lib` <br>
 8. and get view status `./run.py > continue > select libview` <br>
-9. execute "./run.py" > Continue <br>
+9. execute `./run.py` > Continue <br>
 10. set the cpu_context->pc in harness.js from stalker cmodule <br>
-11. run "./run.py"
+11. run `./run.py`
 <br><br>
 
 # STEP for build:
-1. cd ccode<br>
-2. bash build.sh<br>
+1. `$ cd ccode`<br>
+2. `$ bash build.sh`<br>
 3. chose target for linux or android<br>
 
 
 # STEP for patching android library:
-1. pip install lief<br>
+1. `$ pip install lief`<br>
 2. patching:
->>> import lief
->>> xx = lief.parse("libtarget.so")
->>> xx.add_library("libgadget.so")
+`
+>> import lief
+>> xx = lief.parse("libtarget.so")
+>> xx.add_library("libgadget.so")
 <lief.ELF.DynamicEntryLibrary object at 0x7f0c66553c70>
->>> xx.write("libtarget.so")
+>>> xx.write("libtarget.so")`
 <br><br>
 
 
