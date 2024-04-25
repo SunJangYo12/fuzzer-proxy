@@ -80,11 +80,13 @@ crash data for afl-fuzz .tmp/out/default/crash
 1. `$ pip install lief`<br>
 2. patching:
 `
->> import lief
->> xx = lief.parse("libtarget.so")
->> xx.add_library("libgadget.so")
-<lief.ELF.DynamicEntryLibrary object at 0x7f0c66553c70>
->>> xx.write("libtarget.so")`
+import lief<br>
+xx = lief.parse("libtarget.so")<br>
+xx.add_library("libgadget.so")<br>
+
+<lief.ELF.DynamicEntryLibrary object at 0x7f0c66553c70><br>
+
+xx.write("libtarget.so")`<br>
 <br><br>
 
 
